@@ -26,6 +26,11 @@ console.log('Type Coercion');
 // String and Number
 
 // Boolean and Number
+let isAssigned = true;
+let assignedNumber = Number(isAssigned);
+console.log(assignedNumber); // 1
 
 // Coercion occurs in equality checks (==), but not in strict equality checks (===).
 // Equality checks
+console.log(1 == '1'); // true
+console.log(1 === '1'); // false
