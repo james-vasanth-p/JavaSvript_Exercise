@@ -10,11 +10,12 @@
 // Function Parameters and Arguments
 /*Functions can take parameters, which act as placeholders for the values 
 that will be passed to the function.The passing value is called an argument.*/
+function(james);
 function printer(name = 'jade'){
  console.log(`Hi, ${name}`. Do you want 2 copies` );
  }
 
- function(james);
+ 
 // Default Parameter
 
 // Function with Return Type
