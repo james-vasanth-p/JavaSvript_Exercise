@@ -15,3 +15,9 @@
 // Output details about the restaurant
 
 // Output the menu items using destructuring within forEach
+const person = new Object({
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+});
