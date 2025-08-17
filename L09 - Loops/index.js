@@ -115,7 +115,68 @@ let row = 5;
     res=''
   } 
 
+function a(n){
+    let res = 1;
+    for(let row=1 ;row<=n ; row++){
+        
+        let line = " ";
+      for(let col=1 ; col<=row ; col++){
+         
+         line += res + '' ;
+         res++;
+      }
+      console.log(line);
+    }
+}
 
+
+function b(n){
+    let num =1;
+      for(let row=1; row<=n*2 - 1; row++){
+        let res ='';
+        let newrow = row>n ? (n*2)-row: row;
+        for(col=1; col<=newrow; col++){
+            res+= '* '
+        }
+        
+        console.log(res);  
+    }
+  }
+
+function c(n){
+    let num =1;
+      for(let row=1; row<=n*2 -1; row++){
+        let res ='';
+        let newrow1 = row>n? row-n: n-row;
+        for(col=1;col<=newrow1;col++){
+            res+='  ';
+        }
+        let newrow = row>n? (n*2)-row: row;
+        for(col=1; col<=newrow; col++){
+            res+= '*'+ ' ';
+            num++;
+        }
+        
+        console.log(res);  
+    }
+  }
+  
+  function d(n){
+      let num =1;
+      for(let row=1; row<=n; row++){
+        let res ='';
+        for(space=1;space<row;space++){
+            res+=' ';
+        }
+        for(col=0; col<=n-row; col++){
+            res+= '* '
+        }
+        
+        console.log(res);  
+    }
+  }
+
+d(5);
 
 
 
