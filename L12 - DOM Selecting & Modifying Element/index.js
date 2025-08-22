@@ -23,5 +23,17 @@ classdom[2].innerText = 'sayHi';
 const tagdom = document.getElementsByTagName('p')
 console.log(tagdom[0].innerText)
 
-const tagarray = Array.tagdom
-//console.log(tagarray)
+const tagarray = Array.from(tagdom)
+console.log(tagarray)
+tagarray.forEach((tags)=>{
+    console.log(tags.textContent )
+})
+// for(i=0;i<tagarray.length;i++){
+//     tagarray.item(i).styles.color='red';
+// }
+
+const subtitle = document.querySelector('#subtitle');
+ console.log(subtitle );
+setTimeout(()=>{
+    subtitle.textContent='Changed Javascript Query Selector'
+},5000)
