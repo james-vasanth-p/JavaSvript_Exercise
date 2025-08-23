@@ -33,7 +33,7 @@ tagarray.forEach((tags)=>{
 // }
 
 const subtitle = document.querySelector('#subtitle');
- console.log(subtitle );
+ console.log(subtitle);
 setTimeout(()=>{
     subtitle.textContent='Changed Javascript Query Selector'
 },5000)
