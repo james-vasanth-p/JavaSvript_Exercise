@@ -36,4 +36,4 @@ const subtitle = document.querySelector('#subtitle');
  console.log(subtitle);
 setTimeout(()=>{
     subtitle.textContent='Changed Javascript Query Selector'
-},5000)
+},5000);
