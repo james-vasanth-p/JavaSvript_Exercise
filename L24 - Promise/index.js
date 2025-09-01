@@ -16,4 +16,4 @@ asyncTask()
     })
     .catch(error => {
         console.error(error);
-    });
+    }) ;
