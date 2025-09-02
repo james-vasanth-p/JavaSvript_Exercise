@@ -1,0 +1,3 @@
+name = int(input('enter name dude'))
+if name > 0:
+    print(f'wellcome to world {name}')
