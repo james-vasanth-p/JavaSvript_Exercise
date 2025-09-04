@@ -33,6 +33,6 @@ button.addEventListener('keydown', (event) => {
         alert('Shift is pressed');
     }
     if (event.ctrlKey) {
-        alert('Ctrl is pressed');
+        alert('Ctrl is pressed ');
     }
 });
